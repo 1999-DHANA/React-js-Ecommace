@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.navSection{
+    border: 1px solid rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    align-items: center;
+    /* margin-left: 30px; */
+}
+.proSection{
+    display: flex;
+    background-color: white;
+}
+.imgBox{
+    width: 80%;
+    padding-left: 20px;
+}
+.proImage{
+    width: 80%;
+}
+.proTitle h1{
+   margin: 10px ;
+}
+.subMenu ul li{
+    list-style: none;
+    margin: 35px;
+    margin-top: 20px;
+}
+.subMenu{
+    background-color: gray;
+    height: 60px;
+    color: azure;
+}
+.subMenu ul{
+    display: inline-flex;
+}
+.pageSection{
+    display: grid;
+    grid-template-columns: repeat(4,380px);
+}
+.pageImg{
+    width: 250px;
+    height: 250px;
+}
+.pageImg img{
+    /* padding-top: 15px ; */
+    width: 100%;
+}
+.proModel{
+    /* text-align: ; */
+    margin-left: 60PX;
+    padding-bottom: 30PX;
+}
+.ind-image img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.ind-section{
+    display: flex;
+}
+.ind-details{
+    padding: 20px;
+}
+.space{
+    margin: 10px;
+}
+.ind-details button{
+    background-color: rgb(16, 233, 249);
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    color: black;
+}
+.fullpage{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.pro-selected{
+    width: 250px;
+    /* padding-right: 10%; */
+    padding: 8px;
+    border: 2px solid black;
+}
+.pro-input{
+    margin: 10px;
+}
